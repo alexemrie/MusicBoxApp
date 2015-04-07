@@ -1,7 +1,5 @@
 $(document).ready( function() {
 
-    // This controls the button for the c note.
-
     // This variable calls the cNote audio element in the HTML.
     var cNote = document.getElementById('cAudio');
 
@@ -15,7 +13,7 @@ $(document).ready( function() {
         cNote.play();
     });
 
-    // This controls the button for the d note.
+
 
     var dNote = document.getElementById('dAudio');
 
@@ -24,7 +22,7 @@ $(document).ready( function() {
         dNote.play();
     });
 
-    // This controls the button for the e note.
+
 
     var eNote = document.getElementById('eAudio');
 
@@ -33,7 +31,7 @@ $(document).ready( function() {
         eNote.play();
     });
 
-    // This controls the button for the f note.
+
 
     var fNote = document.getElementById('fAudio');
 
@@ -42,7 +40,7 @@ $(document).ready( function() {
         fNote.play();
     });
 
-    // This controls the button for the g note.
+
 
     var gNote = document.getElementById('gAudio');
 
@@ -51,7 +49,7 @@ $(document).ready( function() {
         gNote.play();
     });
 
-    // This controls the button for the a note.
+
 
     var aNote = document.getElementById('aAudio');
 
@@ -60,7 +58,7 @@ $(document).ready( function() {
         aNote.play();
     });
 
-    // This controls the button for the b note.
+
 
     var bNote = document.getElementById('bAudio');
 
