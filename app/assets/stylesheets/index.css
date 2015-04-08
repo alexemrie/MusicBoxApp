@@ -1,10 +1,14 @@
 body {
-    background-color: white;
+    background-color: black;
 }
 
 /*This is the style for our boxs' container. With it we can position and center the boxes in the browser.*/
 
-#instrument {
+#iframe-here {
+  float: right;
+}
+
+/*#instrument {
     height: 116px;
     width: 812px;
     padding-right: 10px;
@@ -12,14 +16,22 @@ body {
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-}
+}*/
 
 /*This is the style that give our music boxes shape*/
+
+#genres {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
 
 .box {
     width: 100px;
     height: 100px;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 10px;
     float:left;
 

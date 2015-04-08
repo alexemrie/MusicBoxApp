@@ -18,10 +18,11 @@ $(document).ready( function() {
 
     });
   });
+});
 
-//   error: function(jqXHR, textStatus, errorThrown) {
+//   {error: function(jqXHR, textStatus, errorThrown) {
 // debugger;
-//   }
+//   }}
 
 
 
@@ -174,7 +175,6 @@ $(document).ready( function() {
     //
 
 
-});
     // var bNote = document.getElementById('bAudio');
     //
     // $('#b').mousedown(function(){
