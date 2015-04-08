@@ -22,6 +22,24 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     float:left;
+
+    /*box throbbing animation*/
+    animation: shadowThrob 0.9s infinite;
+    animation-direction: alternate;
+    -webkit-animation: shadowThrob 0.9s ease-out infinite;
+    -webkit-animation-direction: alternate;
+}
+
+/*box throbbing animation*/
+@keyframes shadowThrob {
+  from {box-shadow: 0 0 30px 10px rgba(190,65,12, 0.9);}
+  to {box-shadow: 0 0 30px 10px rgba(190,65,12, 0.2);}
+}
+
+/*box throbbing animation*/
+@-webkit-keyframes shadowThrob {
+  from {box-shadow: 0 0 30px 10px rgba(190,65,12, 0.9);}
+  to {box-shadow: 0 0 30px 10px rgba(190,65,12, 0.2);}
 }
 
 /*These are the styles that individually color our boxes and also determine the hover and active states*/

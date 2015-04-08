@@ -9,8 +9,16 @@ $(document).ready( function() {
         // This is a property that scrubs the audio file back to its start.
         cNote.currentTime = 0;
 
+        // note animation when clicked
+        var note = $("#c");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "fast");
+          note.animate({height: 100}, "fast", startAnimation);
+        }
+
         // This plays the audio file.
-        cNote.play();
+        // cNote.play();
     });
 
 
@@ -19,7 +27,14 @@ $(document).ready( function() {
 
     $('#d').mousedown(function(){
         dNote.currentTime = 0;
-        dNote.play();
+
+        var note = $("#d");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "fast");
+          note.animate({height: 100}, "fast", startAnimation);
+        }
+        // dNote.play();
     });
 
 
@@ -28,7 +43,15 @@ $(document).ready( function() {
 
     $('#e').mousedown(function(){
         eNote.currentTime = 0;
-        eNote.play();
+
+        var note = $("#e");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "normal");
+          note.animate({height: 100}, "normal", startAnimation);
+        }
+
+        // eNote.play();
     });
 
 
@@ -37,7 +60,15 @@ $(document).ready( function() {
 
     $('#f').mousedown(function(){
         fNote.currentTime = 0;
-        fNote.play();
+
+        var note = $("#f");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "normal");
+          note.animate({height: 100}, "normal", startAnimation);
+        }
+
+        // fNote.play();
     });
 
 
@@ -46,7 +77,15 @@ $(document).ready( function() {
 
     $('#g').mousedown(function(){
         gNote.currentTime = 0;
-        gNote.play();
+
+        var note = $("#g");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "slow");
+          note.animate({height: 100}, "slow", startAnimation);
+        }
+
+        // gNote.play();
     });
 
 
@@ -55,16 +94,38 @@ $(document).ready( function() {
 
     $('#a').mousedown(function(){
         aNote.currentTime = 0;
-        aNote.play();
+
+        var note = $("#a");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "slow");
+          note.animate({height: 100}, "slow", startAnimation);
+        }
+
+        // aNote.play();
     });
-
-
 
     var bNote = document.getElementById('bAudio');
 
     $('#b').mousedown(function(){
         bNote.currentTime = 0;
-        bNote.play();
+
+        var note = $("#b");
+        startAnimation();
+        function startAnimation(){
+          note.animate({height: 300}, "slow");
+          note.animate({height: 100}, "slow", startAnimation);
+        }
+
+        // bNote.play();
     });
 
+
+
 });
+    // var bNote = document.getElementById('bAudio');
+    //
+    // $('#b').mousedown(function(){
+    //     bNote.currentTime = 0;
+    //     bNote.play();
+    // });
