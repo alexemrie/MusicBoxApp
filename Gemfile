@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rspotify', '~> 1.13.0'
 
+gem 'pry'
 
 gem 'faraday', '~> 0.9.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
