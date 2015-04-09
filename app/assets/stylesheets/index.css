@@ -2,23 +2,9 @@ body {
     background-color: black;
 }
 
-/*This is the style for our boxs' container. With it we can position and center the boxes in the browser.*/
-
-#iframe-here {
+#iframe {
   float: right;
 }
-
-/*#instrument {
-    height: 116px;
-    width: 812px;
-    padding-right: 10px;
-    padding-top: 50px;
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-}*/
-
-/*This is the style that give our music boxes shape*/
 
 #genres {
   position: absolute;
