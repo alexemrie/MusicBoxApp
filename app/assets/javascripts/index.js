@@ -15,7 +15,6 @@ $(document).ready( function() {
         var widget = buildIFrame(response.user_id, response.playlist_id);
         $('#iframe-here').html(widget);
       },
-
     });
   });
 });
@@ -23,13 +22,6 @@ $(document).ready( function() {
 //   {error: function(jqXHR, textStatus, errorThrown) {
 // debugger;
 //   }}
-
-
-
-
-
-
-
 
     // // This variable calls the cNote audio element in the HTML.
     // var cNote = document.getElementById('cAudio');
